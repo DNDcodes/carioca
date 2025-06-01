@@ -32,10 +32,10 @@ function setupMain(){
     /* QuestionSpoof */
     (function () {
         const phrases = [ 
-            "🔥 Get good, get [Khanware](https://github.com/Niximkk/khanware/)!",
-            "🤍 Made by [@im.nix](https://e-z.bio/sounix).",
-            "☄️ By [Niximkk/khanware](https://github.com/Niximkk/khanware/).",
-            "🌟 Star the project on [GitHub](https://github.com/Niximkk/khanware/)!",
+            "🔥 RJ NO TOPO",
+            "🤍 RJ NO TOPO",
+            "☄️ RJ NO TOPO.",
+            "🌟 RJ NO TOPO",
             "🪶 Lite mode @ KhanwareMinimal.js",
         ];
         
