@@ -61,7 +61,11 @@ function handleInput(ids, callback = null) {
 }
 
 /* Watermark */
-
+Object.assign(watermark.style, {
+    position: 'fixed', top: '0', left: '85%', width: '150px', height: '30px', backgroundColor: 'RGB(0,0,0,0.5)',
+    color: 'white', fontSize: '15px', fontFamily: 'MuseoSans, sans-serif', display: 'flex', justifyContent: 'space-between', alignItems: 'center', 
+    cursor: 'default', userSelect: 'none', padding: '0 10px',  borderRadius: '10px', zIndex: '1001', transition: 'transform 0.3s ease'
+});
 
 if (device.mobile) watermark.style.left = '55%'
 
